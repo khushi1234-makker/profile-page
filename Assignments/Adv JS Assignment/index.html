@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>API Data Processor</title>
+
+    <style>
+        /* Center heading */
+        h2 {
+            text-align: center;
+        }
+
+        /* Search bar on top-left */
+        .top-bar {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+
+        /* Center table */
+        table {
+            margin: auto;
+            border-collapse: collapse;
+        }
+
+        /* Table styling */
+        th, td {
+            padding: 10px;
+            text-align: center; /* center table content */
+        }
+
+        th {
+            background-color: #ddd;
+        }
+
+        /* Blue city style */
+        .city {
+            color: blue;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        /* Hover effect */
+        tr:hover {
+            background-color: #f2f2f2;
+        }
+    </style>
+
+</head>
+<body>
+
+    <!-- Search bar -->
+    <div class="top-bar">
+        <input type="text" id="search" placeholder="Search city" onkeyup="searchCity()">
+        <button onclick="searchCity()">Search</button>
+        <button onclick="displayAll()">Show All</button>
+    </div>
+
+    <!-- Heading -->
+    <h2>API Data Processor</h2>
+
+    <br>
+
+    <!-- Output -->
+    <div id="output">Loading...</div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
