@@ -1,4 +1,4 @@
-# Frontend Engineering Internship Repository 🚀
+# Frontend Engineering Internship Repository 
 
 Welcome to the **Frontend Engineering Training Repository**.
 
@@ -24,11 +24,25 @@ Engineering is not about memorizing syntax — it is about **thinking through pr
 
 # Repository Structure
 
-```
-assignments/
-resources/
-notes/
-```
+```bash
+Assignments/
+├── HTML Assignment/
+│   ├── index.html
+│   └── profile.jpg
+│
+├── CSS Assignment/
+│   ├── index.html
+│   └── style.css
+│
+├── JS Assignment/
+│   ├── index.html
+│   └── script.js
+│
+├── Adv JS Assignment/
+│   ├── index.html
+│   └── script.js
+│
+README.md
 
 Use the appropriate folders to organize your work and learning materials.
 
